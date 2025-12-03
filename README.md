@@ -1,2 +1,112 @@
 # ReEntry-Compass-MVP-Build
 A secure, self-hosted backend that powers the ReEntry Compass platform. A reentry-focused SaaS designed to help returning citizens access documents, housing, mental health, employment resources, and more.
+
+
+Purpose of This Project
+
+
+ReEntry Compass aims to become a full SaaS platform for:
+
+
+    • Returning citizens
+    • 
+    • Case managers
+    • 
+    • Reentry programs
+    • 
+    • Nonprofits
+    • 
+    • County agencies
+      
+
+This backend currently supports:
+
+
+🗂️ Document Vault (upload & store client documents)
+
+📍 Resource Directory (housing, employment, mental health, and other services)
+
+🔐 Admin Dashboard (secure management for resources and documents)
+
+This is the foundation of a long-term, scalable SaaS platform.
+
+
+Technologies Used
+
+
+    • Python 3.12
+    • Django 5.x
+    • Django REST Framework
+    • Django CORS Headers
+    • SQLite (temporary) → will migrate to PostgreSQL later
+    • Gunicorn + Nginx (future production stack)
+    • Ubuntu VPS on public IP
+
+
+
+    Features Completed (MVP 0.1)
+1. Backend skeleton
+    • Django project initialized
+    • Virtual environment created
+    • Required libraries installed
+    • CORS + DRF enabled
+2. Document Model
+Stores uploaded files for returning citizens:
+    • Title
+    • Category
+    • File
+    • Associated User (optional for now)
+    • Timestamp
+3. Resource Model
+Directory of reentry-friendly services:
+    • Name
+    • Category (Housing, Mental Health, Employment, etc.)
+    • Description
+    • Address / City / State / ZIP
+    • Website
+    • Phone
+    • Accepts Felony (True/False)
+4. Admin Dashboard
+    • Superuser account created
+    • Models registered in admin
+    • Full CRUD on Documents & Resources
+5. Media File Handling
+    • /media/ folder created
+    • File upload paths configured
+    • Static media served in dev mode
+6. Server Running Publicly
+    • File upload paths configured
+    • Static media served in dev mode
+   
+7. Server Running Publicly
+
+
+
+What’s Next (Roadmap)
+
+     (User System)
+    • Custom user model
+    • Roles: Client / Case Manager / Admin
+    • Authentication (JWT or Session Auth)
+      (API Layer)
+    • REST endpoints for Resources
+    • REST endpoints for Documents
+    • Upload via API
+
+    • Client registration
+    • Case manager dashboard
+    • Multi-tenant architecture
+    • PostgreSQL migration
+    • Full deployment with Nginx + Gunicorn
+    • HTTPS + real domain (reentrycompass.com)
+
+Founder Background
+
+I began this project after coming home from 11 years of incarceration and experiencing just how confusing and difficult the reentry process can be. The uncertainty, the lack of guidance, and the challenge of rebuilding from nothing.
+
+
+With a growing background in cybersecurity and software development, I’m building ReEntry Compass to give returning citizens the tools I wish I had access to: secure document storage, reliable resources, and real support.
+It’s designed with security at the core and built to evolve into a scalable SaaS platform that can support individuals, case managers, and county reentry programs nationwide.
+
+
+ReEntry Compass is grounded in lived experience and driven by the belief that better reentry tools can change lives.
