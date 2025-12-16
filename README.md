@@ -207,3 +207,33 @@ Day 2 created the first real features of ReEntry Compass:
     • Admin tools for early MVP management
 This brought the project to a working state where real reentry data structures exist and can be managed through Django’s admin dashboard.
 
+
+
+
+Day 4 – User Authentication & Token Access
+
+Summary
+Built and verified the user authentication flow for the SaaS backend. Successfully logged in through the API, confirmed token-based authentication, and resolved access issues related to server connection context.
+
+What Was Accomplished
+
+Implemented user login functionality
+
+Verified API authentication endpoint
+
+Retrieved and validated authentication token
+
+Confirmed secure access to protected backend features
+
+Why This Matters
+Authentication is a core SaaS feature. Token-based access allows users to stay securely logged in while protecting sensitive data and enabling future features like user roles, dashboards, and subscriptions.
+
+Key Concepts
+
+API-based authentication
+
+Token-based login systems
+
+Backend access control
+
+SaaS security fundamentals
