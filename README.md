@@ -22,11 +22,11 @@ ReEntry Compass aims to become a full SaaS platform for:
 This backend currently supports:
 
 
-🗂️ Document Vault (upload & store client documents)
+Document Vault (upload & store client documents)
 
-📍 Resource Directory (housing, employment, mental health, and other services)
+Resource Directory (housing, employment, mental health, and other services)
 
-🔐 Admin Dashboard (secure management for resources and documents)
+Admin Dashboard (secure management for resources and documents)
 
 This is the foundation of a long-term, scalable SaaS platform.
 
